@@ -4,4 +4,4 @@ Nov 18 2020
 09:47:47
 C:/dev/FPGA/countFSM/countFSM.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
 ,,,,,,,,,,,,,,
-C:/dev/FPGA/countFSM/countFSM.srcs/sources_1/new/main.sv,1608136181,systemVerilog,,C:/dev/FPGA/countFSM/countFSM.srcs/sim_1/new/tested.sv,,countFSM;countFSM_tb,,uvm,,,,,,
+C:/dev/FPGA/countFSM/countFSM.srcs/sources_1/new/main.sv,1608711983,systemVerilog,,C:/dev/FPGA/countFSM/countFSM.srcs/sim_1/new/tested.sv,,countFSM;tb,,uvm,,,,,,

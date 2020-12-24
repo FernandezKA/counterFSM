@@ -1,40 +1,43 @@
-`timescale 1 ns/10 ps
-module countFSM_tb();
-logic clock, inp, reset;
-countFSM dut(reset, clock, inp);
-initial begin 
-#5
-clock = 1;
-inp = 1;
-reset = 1;
-#5 
-clock = 0;
-inp = 0;
-reset = 0;
-
-#5 
-clock = 1;
-inp = 0;
-reset = 0;
-end 
-endmodule
-
-module countFSM(input logic reset, clk, data, output logic [31:0] count);
-typedef enum logic [1:0] {S0, S1, S2, S3} statetype;
-statetype state, newstate;
-always_ff@ (posedge clk)
-begin 
-state = newstate;
+module countFSM(input logic clk, reset, inp, output logic [31:0] result, output logic ended);
+typedef enum logic [1:0] {S0, S1, S2} state;
+state current;
+state next = S0;
+always_ff@ (posedge clk) 
+begin
+current <= next;
 end
-always_comb
-case(state)
-S0: if(reset) newstate = S1;
-    else if(!reset) newstate = S0;
-S1: if(reset) newstate = S0;
-    else if(data) newstate = S2;
-    else if (!data) newstate = S1;
-S2: if(reset) newstate = S0;
-    else if (data) newstate = S2;
-    else if(!data) newstate = S1;
+always_ff@ (posedge clk)
+
+case(current)
+
+S0:
+begin
+if(!reset) next = S0;
+else if(inp) next = S1;
+end
+S1: 
+begin
+if(!reset) next = S0;
+else if(!inp) next = S2;
+end
+S2:
+if(!reset) next = S0;
+endcase
+
+always_ff@ (posedge clk)
+case(current)
+S0: 
+begin
+ended = 0;
+result = 0;
+end
+S1:
+begin
+result = result + 1'd1;
+end
+S2:
+begin
+ended = 1;
+end
 endcase
 endmodule

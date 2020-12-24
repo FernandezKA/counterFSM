@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1608712924">
+  <File Type="BITSTR-BMM" Name="countFSM_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="countFSM_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="countFSM_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="countFSM_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="countFSM.tcl"/>
+  <File Type="OPT-TIMING" Name="countFSM_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="countFSM_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="countFSM_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="countFSM_reports.tcl"/>
+  <File Type="OPT-DRC" Name="countFSM_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="countFSM.hwdef"/>
+  <File Type="PWROPT-DCP" Name="countFSM_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="countFSM_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="countFSM_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="countFSM_placed.dcp"/>
+  <File Type="PLACE-IO" Name="countFSM_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="countFSM_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="countFSM_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="countFSM_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="countFSM_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="countFSM_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="countFSM_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="countFSM_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="countFSM_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="countFSM.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="countFSM_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="countFSM_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="countFSM_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="countFSM.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="countFSM_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="countFSM_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="countFSM_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="countFSM_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="countFSM_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="countFSM_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="countFSM_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="countFSM.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="countFSM_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="countFSM_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="countFSM_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="countFSM_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="countFSM_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="countFSM_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="countFSM_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="countFSM_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="countFSM_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="countFSM_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="countFSM_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="countFSM_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="countFSM_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="countFSM_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="countFSM_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="countFSM_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="countFSM_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="countFSM_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="countFSM_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="countFSM_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="countFSM_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="countFSM.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="countFSM_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="countFSM.rbt"/>
+  <File Type="BITSTR-NKY" Name="countFSM.nky"/>
+  <File Type="PDI-FILE" Name="countFSM.pdi"/>
+  <File Type="RCFI_FILE" Name="countFSM.rcfi"/>
+  <File Type="CFI_FILE" Name="countFSM.cfi"/>
+  <File Type="RNPI_FILE" Name="countFSM.rnpi"/>
+  <File Type="NPI_FILE" Name="countFSM.npi"/>
+  <File Type="RBD_FILE" Name="countFSM.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="countFSM.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="countFSM.sysdef"/>
+  <File Type="BG-BGN" Name="countFSM.bgn"/>
+  <File Type="BG-DRC" Name="countFSM.drc"/>
+  <File Type="RDI-RDI" Name="countFSM.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/main.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="countFSM"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
